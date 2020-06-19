@@ -30,7 +30,7 @@
          "managed",
          "--allow-unauthenticated",
          "--port",
-         "80"
+         "8001"
       ]
   }],
  "images": [
