@@ -1,4 +1,4 @@
 FROM ppdeassis/node-nginx-alpine
-COPY app/ .
+COPY . .
 CMD ["node","index.js"]
 EXPOSE 80
