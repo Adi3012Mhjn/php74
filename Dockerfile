@@ -6,3 +6,5 @@ COPY . .
 RUN rm -rf node_modules
 RUN yarn install
 RUN yarn cache clean
+RUN node server.js
+EXPOSE 80
