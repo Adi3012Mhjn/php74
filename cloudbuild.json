@@ -30,7 +30,9 @@
          "managed",
          "--allow-unauthenticated",
          "--port",
-         "80"
+         "80",
+         "--hostname",
+         "https://php72-mftressawa-de.a.run.app/"
       ]
   }],
  "images": [
