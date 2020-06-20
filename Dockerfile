@@ -1,3 +1,4 @@
-from intelliants/php7.2-fpm-nginx
-copy . .
+from ppdeassis/node-nginx-alpine
+COPY . .
+CMD ["node","index.js"]
 EXPOSE 80
